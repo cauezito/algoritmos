@@ -1,0 +1,18 @@
+Big O - Ajuda a prever o quão escalável é o código e a sua complexidade, quanto tempo ele leva para 
+terminar a sua execução conforme o número de instruções aumenta.
+
+Quanto mais elementos em um array, por exemplo, mais operações devem ser feitas e mais tempo leva. 
+Big O "mapeia" esse tempo, analisando a complexidade do algoritmo.
+
+Big O Notation - Calcula o quão longo uma rotina leva para executar.
+
+======== O(n) - Linear Time  (n = número de elementos) ========
+
+======== O(1) - Constant Time (O número de instruções não interfere no tempo) ========
+Ex: Acessar o primeiro item de um array. Independente da quantidade de elementos, 10, 20, 5000, 100000, 
+o primeiro item sempre será pego, sem a necessidade de percorrer toda a estrutura, portanto o tempo 
+não sofre alteração.
+
+A complexidade desse tipo de algoritmos é excelente em termos de escalabilidade.
+
+
