@@ -6,6 +6,10 @@ Big O "mapeia" esse tempo, analisando a complexidade do algoritmo.
 
 Big O Notation - Calcula o quão longo uma rotina leva para executar.
 
+- Ao calcular o Big O temos sempre que pensar no pior caso. Ou seja, no exemplo do
+array procurandoNemo, Nemo está na 4a posição, mas sempre devemos pensar que ele
+pode estar na última.
+
 ======== O(n) - Linear Time  (n = número de elementos) ========
 
 ======== O(1) - Constant Time (O número de instruções não interfere no tempo) ========
@@ -14,5 +18,11 @@ o primeiro item sempre será pego, sem a necessidade de percorrer toda a estrutu
 não sofre alteração.
 
 A complexidade desse tipo de algoritmos é excelente em termos de escalabilidade.
+
+===== RULES =====
+1 - Worst case - Considerar sempre o pior caso.
+2 - Remove constants - Simplificar. Ex: O(a + 500000) - > O(a)
+
+
 
 

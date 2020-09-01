@@ -18,4 +18,4 @@ function anotherFunChallenge(input) {
     let whoAmI = "I don't know"; //0(1) - Roda somente uma vez durante a execução da função
   }
 
-  //Big O(4 + 5n)
+  //Big O(4 + 5n) -> Simple O(n)
